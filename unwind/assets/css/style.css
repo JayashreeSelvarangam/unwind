@@ -1,0 +1,115 @@
+*{
+text-decoration:none;
+}
+body{
+    background-color:lavender;
+   
+}
+.header{
+      margin-left:40px;
+      margin-top:30px;
+      margin-right:20px;
+      display:flex;
+      flex-direction:row;
+      border-bottom: 1px solid #333;
+     
+}
+.image-logo{
+    margin-top:20px;
+    margin-right: 10px;
+}
+.nav-list{
+    display:flex;
+    flex-direction:row;
+    margin-left:500px;
+    padding-top:20px;
+}
+.nav-item{
+    margin-left:80px;
+    font-size:24px;
+    text-transform: capitalize;
+}
+li {
+    list-style:none;
+}
+.nav{
+    color:purple;
+}
+.nav:hover{
+    color:rgb(16, 158, 130);
+    text-decoration:underline;
+}
+.button-1{
+    margin-left: 90px;
+    margin-top:27px;
+}
+.login{
+    padding:10px 30px 10px 30px;
+    background-color: #333;
+    color:white;
+    border-radius:10px;
+}
+.main-slogan{
+    background-image: url('./assets/image/backgroundimage4.jpg');
+    background-size:100% 100%;
+    width:800px;
+    height:500px;
+    border-radius:20px;
+}
+.main{
+    margin-left:40px;
+    margin-top:30px;
+   
+}
+.heading-1{
+   font-size:50px;
+   position: relative;
+   top:90px;
+   color:lavenderblush;
+   left:420px;
+   right: 320;;
+}
+
+
+.tagline1{
+    color:lavenderblush;
+    position: relative;
+    top:270px;
+    bottom:50px;
+    font-weight:bold;
+    left:360px;
+   
+    font-size:25px;
+}
+.main-tag{
+    position:relative;
+    bottom:170px;
+    right:40px;
+}
+
+.rightside{
+    display:flex;
+    flex-direction: row;
+}
+.content-2{
+    width:500px;
+    margin-left:30px;
+    margin-top:90px;
+}
+.heading-2{
+    font-size:40px;
+    border-bottom: 1px solid #333;
+}
+.content-2 p{
+    position: relative;
+    top:10px;
+    font-size: 20px;
+}
+.content-2 button{
+    margin-top: 20px;
+    padding:10px 30px 10px 30px;
+
+    background-color: #333;
+    color:white;
+    border-radius:10px;
+}
